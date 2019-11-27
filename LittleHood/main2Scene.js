@@ -17,7 +17,7 @@ class main2Scene extends Phaser.Scene {
     create () { 
 
         this.bgmSound = this.sound.add('bgm2', {volume: 0.3});
-        //this.bgmSound.loop = true;
+        this.bgmSound.loop = true;
         this.bgmSound.play();
 
         this.add.image(0, 0, 'main2').setOrigin(0, 0);
