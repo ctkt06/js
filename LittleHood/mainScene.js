@@ -65,6 +65,7 @@ class mainScene extends Phaser.Scene {
         var key6 = this.input.keyboard.addKey(54);
         var key7 = this.input.keyboard.addKey(55);
         var key8 = this.input.keyboard.addKey(56);
+        var key9 = this.input.keyboard.addKey(57);
 
 
         key1.on('down', function(){
@@ -105,6 +106,11 @@ class mainScene extends Phaser.Scene {
         key8.on('down', function(){
             this.scene.stop("mainScene");
             this.scene.start("finalScene");
+            }, this ); 
+
+        key9.on('down', function(){
+            this.scene.stop("mainScene");
+            this.scene.start("gameoverScene");
             }, this ); 
         
     
