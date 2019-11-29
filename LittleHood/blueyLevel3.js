@@ -396,7 +396,7 @@ class blueyLevel3 extends Phaser.Scene {
             // Reset counter before a restart
             this.isDead = false;
             this.lifeCount = 3;
-            this.scene.start("gameoverScene");
+            this.scene.start("gameoverScene3");
         },[], this);
         }
     

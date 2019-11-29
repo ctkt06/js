@@ -15,8 +15,8 @@ let config = {
     },
     //scene: [mainScene, main2Scene, storyScene, story2Scene, level1]
     scene: [mainScene,main2Scene, storyScene, story2Scene, reddieLevel1, reddieLevel2, reddieLevel3, 
-           gameoverScene, yellowyLevel1, yellowyLevel2, yellowyLevel3, blueyLevel1, blueyLevel2, blueyLevel3, 
-           finalScene]
+           gameoverScene1, yellowyLevel1, yellowyLevel2, yellowyLevel3, blueyLevel1, blueyLevel2, blueyLevel3, 
+           finalScene, gameoverScene2, gameoverScene3]
     
 
 
